@@ -9,13 +9,13 @@ void main(List<String> arguments) {
   int result = 5 * int.parse(inputNumber);
   print("5 sinnum $inputNumber er $result");
 */
-/*
+  /*
   int number1 = 8;
   int number2 = 3;
   double result2 = number1 / number2;
   print(result2.toStringAsFixed(3));
 */
-/*
+  /*
   print("Hæ hvað heitir þú?");
   String firstName = stdin.readLineSync(encoding: utf8).toString();
   print("Hello $firstName");
