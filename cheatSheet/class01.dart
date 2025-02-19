@@ -69,4 +69,8 @@ void main(List<String> arguments) {
   /*
   Bónus task calculate the age from the SSN.
    */
+  print(formattedSSN3.substring(4,6));
+  int? ssnFormatted = int.tryParse(formattedSSN1.substring(4,6));
+  int age = 
+
 }
