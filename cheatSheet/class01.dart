@@ -6,6 +6,8 @@ void main(List<String> arguments) {
     Hjörtur, would you like to learn Dart strings today?'
     Store Message and Name in seperate variable.
    */
+  String firstName = "Steinar";
+  print("Góðann daginn $firstName, viltu fá að læra um Dart strengi í dag?");
 
   /* 1. Find a quote from a famous person you admire. Print the quote and the name of its
   author. Your output should look something like the following, including the
@@ -13,6 +15,9 @@ void main(List<String> arguments) {
   1. Albert Einstein once said, 'A person who never made a mistake never tried
   anything new.'
   */
+  String authorName = "-Bill Burr";
+  print("'These fucking billionaires, they need to be put down,you know? Like fucking rabid dogs.' $authorName");
+
 
   /*
     2. Assign a message to a variable, and print that message. Then change the value of
