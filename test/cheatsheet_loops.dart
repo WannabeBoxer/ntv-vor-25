@@ -1,38 +1,23 @@
-  // ** LOOPS **
-void main() {
+void main(){
+
+  List<int> listlist = [1,2,3,4,5,6];
+
   // for loop
-
-  for (int i = 1; i <= 10; i++) {
-    print(i);
+  for(int i = 0; i < listlist.length; i++ ){
+    print('asd');
   }
-  for (int j = 10; j >= 1; j--) {
-    print('hjaltarinn');
-  }
-
-  List animals = ['Lion', 'Pig', 'Cow', 'Hjalti'];
   // for in
-  for (String animal in animals) {
-    print(animal);
-    print(animals);
+  for(int num in listlist){
+    print(num);
   }
 
-  int numb = 5;
   // while
-  while (numb > 0) {
-    numb--;
-    print(numb);
-  }
-}
+  int foo = 5;
+
+
   // do while
   do{
-    numb--;
-    print(numb);
-  }
-  while(numb > 0);
-  // Create a program that asks the user for a number and then prints out
-  // a list of all the divisors of that number.
-
-  //
-
-
-
+    print(foo);
+    foo--;
+  } while(foo > 0);
+}

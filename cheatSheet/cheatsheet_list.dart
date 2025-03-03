@@ -1,7 +1,7 @@
 
 void main(){
 
-  /*create a  list
+  //create a  list
   List names = ['john', 'hjalti', 'sveppi krull', 'gunnar'];
   print(names);
   //change an item in a list
@@ -39,8 +39,7 @@ void main(){
   print(hjaltiIndex);
   names.removeAt(hjaltiIndex);
   print(names);
-
-   */
+  
   List nums = [5,4,3,2,1,9,8,7,6];
   List chars = ['a','b', 'd', 'g', 'f', 'e'];
 
