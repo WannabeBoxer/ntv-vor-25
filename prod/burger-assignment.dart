@@ -19,9 +19,8 @@ void main() {
     print(
         "Halló, verið velkomin til Hamborgarabúllu Steinars! Ertu tilbúin/n til að panta?");
     print("1. Sjá Matseðil");
-    print("2. Bæta við pöntun");
-    print("3. Taka úr pöntun");
-    print("4. Loka");
+    print("2. Bæta við/taka úr pöntun");
+    print("3. Loka");
     print("Sláðu inn viðeigandi tölu:");
 
     String? choice = stdin.readLineSync();
@@ -44,11 +43,11 @@ void main() {
         }
 
         if (menu.containsKey(item)) {
-          print("Sláðu inn hversu marga þú vilt:");
+          print("Sláðu inn hversu marga þú vilt (settu mínus fyrir framan töluna ef þú vilt taka út):");
           String? quantityInput = stdin.readLineSync();
           int? quantity = int.tryParse(quantityInput ?? "");
 
-          if (quantity != null && quantity > 0) {
+          if (quantity != null) {
             totalCost += menu[item]! * quantity;
             orderSummary.add(
                 "$quantity x $item = Rs ${menu[item]! * quantity}");
@@ -69,6 +68,7 @@ void main() {
       print("------------------------------------------");
       print("Pöntun: Rs $totalCost");
       print("==========================================");
+      /*
     } else if (choice == "3") {
       int totalCost = 0;
       List<String> orderSummary = [];
@@ -94,8 +94,8 @@ void main() {
                 "Máltíð ekki fundin. Gjörið svo vel að velja aðeins af matseðlinum.");
           }
         }
-      }
-    } else if (choice == "4") {
+      }*/
+    } else if (choice == "3") {
       print("Takk fyrir heimsóknina! Bless bless.");
       break;
     } else {
