@@ -5,5 +5,5 @@ void main(){
   List<int> myList = [1,2,3,4,5];
 
   // change an item in a list
-  myList
+  myList;
 }
